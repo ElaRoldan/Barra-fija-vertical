@@ -1,0 +1,88 @@
+.container {
+  margin: 0 0 0 150px;
+  width: 720px;
+  padding-left:20px;
+}
+
+nav {
+  position: fixed;
+  float: left;
+  margin-left: -170px;
+  margin-top: -80px;
+  background-color: #D8D8D8;
+  border-right-width: 2px;
+  height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.content {
+width: 100%;
+height: 100%;
+padding: 10px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+position: relative;
+}
+.content .feature{
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+padding-left: 60px;
+width: 100%;
+}
+.content .feature h2{
+font-weight: 100;
+}
+.content .feature p{
+width: 100%;
+line-height: 160%;
+}
+.content ul-toggle {
+background: #2290c9;
+border-radius: 3px;
+display: block;
+position: relative;
+padding: 10px 7px;
+float: left;
+}
+.content ul-toggle .bar{
+display: block;
+width: 18px;
+margin-bottom: 3px;
+height: 2px;
+background-color: #fff;
+border-radius: 1px;
+}
+.content ul-toggle .bar:last-child{
+margin-bottom: 0;
+}
+
+
+/*http://jampudia.com/ejemplos/Menu%20Swipeable/Demo%202/#
