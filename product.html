@@ -12,6 +12,7 @@
 
   <!-- Esto especifica que podamos utilizar acentos dentro del HTML  -->
   <link rel="stylesheet" href="main.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
   <title>CodeaCamp</title>
@@ -21,22 +22,25 @@
     <header>
       <h1>CodeaCamp</h1>
     </header>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#que_hacemos">¿Qué Hacemos?</a></li>
-        <li><a href="#pricing">Precios</a></li>
-        <li><a href="#about">Nosotros</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#que_hacemos">¿Qué Hacemos?</a></li>
+          <li><a href="#pricing">Precios</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </div>    
       <br clear="all">
     </nav>
-    <div class="content">
-    <a href="#" data-toggle=".container" id="sidebar-toggle">
-      <span class="bar"></span>
+    <div class="main-content">
+        <a href="#" data-toggle=".container" id="sidebar-toggle">
+            <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
         </a>
+    <div class="content">
       <div id="buzz">
         <h3>Información relevante</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -140,6 +144,7 @@
   Derechos &copy; 2015 Lorem S.A. de C.V
 </div>
 </div>
-<script src="javascript.js"></script>
+</div>
+<script type="text/javascript" src="menu.js"></script>
 </body>
 </html>
